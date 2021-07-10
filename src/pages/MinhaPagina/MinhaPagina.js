@@ -36,23 +36,26 @@ const MinhaPagina = () => {
         )
     },[busca, repos])
    return(
-       <>
-         <Menu/>
-         <div className="busca">
-         <input className="busca__repo" onChange={e => {setBusca(e.target.value)}} placeholder="Digite um Repo"/> 
-         <div className="container"> 
-             <img	class="fotoPessoal" src={img} width="40%" atl="foto luana"/>  
-             <h3 className="nome__luana">Luana Eloy</h3>
-             <h4 className="descricao-front">Front-end Developer | HTML, CSS, JavaScript, React</h4>
-         </div>
-         {filtroRepos.map(repo =>(
-            
-             <p className="list">{repo.name} </p>
-             
+        <>
+          <Menu/>
+          <div>
+             <div className="busca">
+             <input className="busca__repo" onChange={e => {setBusca(e.target.value)}} placeholder="Digite um Repo"/> 
+             <div className="container"> 
+                 <img	class="fotoPessoal" src={img} width="40%" atl="foto luana"/>  
+                 <h3 className="nome__luana">Luana Eloy</h3>
+                 <h4 className="descricao-front">Front-end Developer | HTML, CSS, JavaScript, React</h4>
+             </div>
+                {filtroRepos.map(repo =>(
+                 <div>
+                    <p className="list">{repo.name} </p>
+                 </div>
          ))}
+            </div>
          </div>
          <Footer/>
-       </>
+         </>
+       
    )
 }
  

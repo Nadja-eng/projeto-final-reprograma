@@ -4,13 +4,19 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
+  
+}
+
+.root_fundo {
+	width: 100vh;
+	bacground-color: #dad6d6
 }
 
 .main h1 {
     font-size: 46px;
 	font-weight: 300;
 	line-height: 78px;
-     color: #EC9B69;
+    color: #EC9B69;
 }
 
 .main img {
@@ -50,4 +56,5 @@
 		max-height: 680px;
 		align-items: center;
 	}
+	
 }

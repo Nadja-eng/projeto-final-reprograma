@@ -2,7 +2,7 @@
     display: inline;
     color: #BA63FF;
     text-indent: 30%;
-    
+ 
 }
 
 .fotoPessoal {
@@ -16,19 +16,19 @@
 .nome__luana {
     color: #EC9B69;
     margin-left: 9%;
-    font-size: 15px;
+    font-size: 19px;
     text-indent: 27%; 
 }
 
 .descricao-front {
     color: #8d8783; 
-    font-size: 7px; 
-    text-indent: 29%;
+    font-size: 9px; 
+    text-indent: 0%;
 }
 
 p.list{
-    text-indent: 41%;
-    font-size:15px;
+    text-indent: 40%;
+    font-size:10px;
 }
 
 .busca__repo {

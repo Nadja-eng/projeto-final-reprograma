@@ -5,13 +5,14 @@ import './style.css'
 const Banner = () => {
  return(
     
-    <div className="main">
-       <div>
-          <h1>Mulheres que mudaram a Engenharia</h1>
-       </div>
+       <div className="main">
+           <div>
+               <h1>Mulheres que mudaram a Engenharia</h1>
+            </div>
          <img src={img} alt="ilustração com logo react"/>
-     </div>  
+       </div>  
+    
  )
 }
 
-export default Banner
+export default Banner 
